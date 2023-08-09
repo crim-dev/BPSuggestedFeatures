@@ -1,16 +1,10 @@
 # BPSuggestedFeatures
 bracken pack but with suggested features
 
-## Implemented suggestions : 
+## Hunter foods : 
 
+-> Rabbit stew removes all hunger effects for hunters, no drawbacks yet
 
-## Total list of suggestions:
-- Crystal cave explorer map
-- species book hover text
-- brine portal map
-- guaranteed portal keys
-- new hunter foods
-- water breathing allows netherkins & enderlings to enter water
-- beanstalk structure from overworld -> fae
-- rpg titles 
-- rabbit stew reduces hunger for hunters
+Plans : 
+- Food that gives strength 2 
+- idk whatever Deathbringer tells me to add

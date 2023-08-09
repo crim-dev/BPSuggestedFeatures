@@ -1,4 +1,4 @@
-effect give @s minecraft:hunger 2 0 true
+execute unless score @s bp.hunter_morph matches 21 run effect give @s minecraft:hunger 2 0 true
 execute if score @s[scores={bp.hunter_morph=16}] bp.food matches 20 run effect give @s minecraft:speed 1 1 true
 execute if score @s[scores={bp.hunter_morph=16}] bp.food matches 9.. run effect give @s minecraft:speed 1 0 true
 execute if score @s[scores={bp.hunter_morph=17}] bp.food matches 20 run effect give @s minecraft:speed 1 1 true
@@ -16,6 +16,6 @@ execute if score @s bp.hunter_morph matches 13 run execute if score @s bp.hurtin
 execute if score @s bp.hunter_morph matches 19 run effect clear @s minecraft:wither
 
 
-execute if score @s bp.hunter_morph matches 1.. run effect give @s hunger 2 1 true
+execute if score @s bp.hunter_morph matches 1..20 run effect give @s hunger 2 1 true
 execute if score @s[scores={bp.hunter_morph=1..}] bp.food matches ..3 run function bracken:player/species/hunter/demorph
 execute if score @s[scores={bp.hunter_morph=1..}] bp.health matches ..0 run function bracken:player/species/hunter/demorph

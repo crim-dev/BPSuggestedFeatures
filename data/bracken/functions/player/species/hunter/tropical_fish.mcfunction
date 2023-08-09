@@ -22,3 +22,4 @@ advancement revoke @s only bracken:technical/species/hunter/salmon
 advancement revoke @s only bracken:technical/species/hunter/cod
 advancement revoke @s only bracken:technical/species/hunter/poisonous_potato
 advancement revoke @s only bracken:technical/species/hunter/honey
+advancement revoke @s only bracken:technical/species/hunter/rabbit_stew

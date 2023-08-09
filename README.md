@@ -12,7 +12,7 @@ what it says on the tin
 - [ ] brine portal map
 - [ ] guaranteed portal keys
 - [ ] new hunter foods
-- [ ] water breathing allows netherkins & enderlings to enter water
+- [X] water breathing allows netherkins & enderlings to enter water
 - [ ] beanstalk structure from overworld -> fae
 - [ ] rpg titles 
 - [X] [hunter-foods](https://github.com/unholy-codeism/BPSuggestedFeatures/tree/hunter-foods)

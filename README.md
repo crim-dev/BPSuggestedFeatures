@@ -1,16 +1,6 @@
 # BPSuggestedFeatures
 bracken pack but with suggested features
 
-## Implement suggestions : 
+## RPG Titles : 
 
-
-## Total list of suggestions:
-- Crystal cave explorer map
-- species book hover text
-- brine portal map
-- guaranteed portal keys
-- new hunter foods
-- water breathing allows netherkins & enderlings to enter water
-- beanstalk structure from overworld -> fae
-- rpg titles 
-- rabbit stew reduces hunger for hunters
+- When entering a new dimension, players get shown a big title that says the name of the dimension they're in.

@@ -30,3 +30,5 @@ execute if entity @s[predicate=bracken:quicksand] if block ~ ~0 ~ mud if block ~
 
 execute if score @s bp.1_second matches 12 if score #bp.dimension_travel_dummy bp.dimension_travel_con matches 1 if entity @s[y=-35,dy=-300] in bracken:void run tp @s ~ 240 ~
 
+execute if score @s bp.travel_title matches 1.. run title @s title {"text":"-= PANACEA =-","bold":true,"color":"dark_green"}
+execute if score @s bp.travel_title matches 1.. run title @s subtitle {"text":"Chaotic Jungle","bold":true,"color":"dark_green"}

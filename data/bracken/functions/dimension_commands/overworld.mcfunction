@@ -16,3 +16,6 @@ execute if score @s bp.1_second matches 1 if entity @e[distance=..26,type=minecr
 execute if score @s bp.1_second matches 1 if entity @e[distance=..8,type=minecraft:item_display,tag=bp.brine_entrance] run effect give @s minecraft:nausea 7 0 true
 
 execute if score #bp.dimension_travel_dummy bp.dimension_travel_con matches 1 if score @s bp.ice matches 7.. if block ~ ~-1 ~ beacon run function bracken:dimension_crossing/overworld_to_glacium
+
+execute if score @s bp.travel_title matches 1.. run title @s title {"text":"-= OVERWORLD =-","bold":true,"color":"gold"}
+execute if score @s bp.travel_title matches 1.. run title @s subtitle {"text":"Neutral Dominion","bold":true,"color":"gold"}

@@ -15,6 +15,5 @@ execute if entity @s[tag=bp.mansion_1] run function bracken:ability_books/mansio
 
 execute if score #bp.dimension_travel_dummy bp.dimension_travel_con matches 1 if entity @s[y=-32,dy=-200] run function bracken:dimension_crossing/voidtp
 
-
-
-
+execute if score @s bp.travel_title matches 1.. run title @s subtitle {"text":"","bold":true,"color":"black"}
+execute if score @s bp.travel_title matches 1.. run title @s title {"text":"-= VOID =-","bold":true,"color":"black"}

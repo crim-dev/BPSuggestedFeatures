@@ -1,0 +1,11 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:changed_dimension"
+      }
+    },
+    "rewards": {
+        "function": "bracken:player/on_travel"
+    }
+  }
+  

@@ -18,3 +18,6 @@ execute if entity @s[tag=bp.from_mansion_1] run function bracken:ability_books/m
 
 execute if score @s bp.1_second matches 7 if score #bp.dimension_travel_dummy bp.dimension_travel_con matches 1 if entity @s[y=250,dy=100] run function bracken:dimension_crossing/faewild_to_pax
 execute if score @s bp.1_second matches 9 if score #bp.dimension_travel_dummy bp.dimension_travel_con matches 1 if entity @s[y=-15,dy=-200] run function bracken:dimension_crossing/faewild_to_overworld
+
+execute if score @s bp.travel_title matches 1.. run title @s title {"text":"-= THE FAEWILDS =-","bold":true,"color":"dark_aqua"}
+execute if score @s bp.travel_title matches 1.. run title @s subtitle {"text":"Fantasy Incarnate","bold":true,"color":"dark_aqua"}

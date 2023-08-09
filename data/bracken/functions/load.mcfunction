@@ -26,6 +26,7 @@ scoreboard objectives add bp.creeper_horn dummy
 scoreboard objectives add bp.var dummy
 scoreboard objectives add bp.gothrum_fang dummy
 scoreboard objectives add bp.brinetravel dummy
+scoreboard objectives add bp.travel_title dummy
 
 scoreboard objectives add bp.tick dummy
 scoreboard objectives add bp.1_second dummy
@@ -69,6 +70,8 @@ scoreboard objectives add bp.portal_keys_con dummy
 execute unless score #bp.nether_height_dummy bp.nether_height_con matches 0 run scoreboard players set #bp.nether_height_dummy bp.nether_height_con 1
 execute unless score #bp.end_height_dummy bp.end_height_con matches 0 run scoreboard players set #bp.end_height_dummy bp.end_height_con 1
 
+execute unless score #bp.title_dummy bp.travel_title matches -1 run scoreboard players set #bp.title_dummy bp.travel_title 1
+execute unless score #bp.title_dummy bp.travel_title matches 1 run scoreboard players set #bp.title_dummy bp.travel_title -1
 execute unless score #bp.dimension_travel_dummy bp.dimension_travel_con matches 0 run scoreboard players set #bp.dimension_travel_dummy bp.dimension_travel_con 1
 execute unless score #bp.teams_dummy bp.teams_con matches 0 run scoreboard players set #bp.teams_dummy bp.teams_con 1
 execute unless score #bp.species_dummy bp.species_con matches 0 run scoreboard players set #bp.species_dummy bp.species_con 1

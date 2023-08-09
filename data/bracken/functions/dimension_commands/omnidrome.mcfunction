@@ -20,3 +20,5 @@ execute if entity @s[y=275,dy=100] run effect give @s slow_falling 1 1 true
 
 execute if entity @s[tag=bp.from_mansion_1] run function bracken:ability_books/mansion/tp_from_mansion/tp_back_setup
 
+execute if score @s bp.travel_title matches 1.. run title @s title {"text":"-= OMNIDROME =-","bold":true,"color":"green"}
+execute if score @s bp.travel_title matches 1.. run title @s subtitle {"text":"Virtual Landscapes","bold":true,"color":"green"}

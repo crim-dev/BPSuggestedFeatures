@@ -12,3 +12,6 @@ execute if entity @s[scores={bp.ice=7..}] if block ~ ~-1 ~ minecraft:beacon run 
 execute if score @s bp.1_second matches 12 if score #bp.dimension_travel_dummy bp.dimension_travel_con matches 1 if entity @s[y=-35,dy=-300] in bracken:void run tp @s ~ 240 ~
 
 execute unless entity @s[predicate=bracken:lesslightlevel] positioned over ocean_floor if entity @s[predicate=bracken:rain,dy=999] run effect give @s[team=!Frostkin] minecraft:wither 1 1 false
+
+execute if score @s bp.travel_title matches 1.. run title @s title {"text":"-= GLACIUM =-","bold":true,"color":"aqua"}
+execute if score @s bp.travel_title matches 1.. run title @s subtitle {"text":"Frozen Wastelands","bold":true,"color":"aqua"}

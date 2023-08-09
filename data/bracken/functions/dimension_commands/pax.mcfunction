@@ -24,3 +24,5 @@ execute if score @s bp.tick matches 2 if blocks ~1 ~1 ~1 ~-1 ~-10 ~-1 ~ 500 ~ al
 ## Pax
 execute if score @s bp.tick matches 1 as @e[type=#bracken:pax_entities,distance=..40] at @s run function bracken:entities/pax/pax_entities
 
+execute if score @s bp.travel_title matches 1.. run title @s title {"text":"-= PAX =-","bold":true,"color":"white"}
+execute if score @s bp.travel_title matches 1.. run title @s subtitle {"text":"Peaceful Clouds","bold":true,"color":"white"}

@@ -15,3 +15,6 @@ execute if entity @s[tag=bp.from_mansion_1] run function bracken:ability_books/m
 #VOID TP
 execute if score @s bp.1_second matches 12 if score #bp.dimension_travel_dummy bp.dimension_travel_con matches 1 if entity @s[y=-35,dy=-300] in bracken:void run tp @s ~ 240 ~
 
+# Location Title
+execute if score @s bp.travel_title matches 1.. run title @s title {"text":"-= DORMIS =-","color":"dark_red","bold":true}
+execute if score @s bp.travel_title matches 1.. run title @s subtitle {"text":"The Interdimensional Prison","color":"dark_red","bold":true}

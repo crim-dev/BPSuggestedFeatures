@@ -15,4 +15,4 @@ what it says on the tin
 - [ ] water breathing allows netherkins & enderlings to enter water
 - [ ] beanstalk structure from overworld -> fae
 - [ ] rpg titles 
-- [ ] [hunter-foods](https://github.com/unholy-codeism/BPSuggestedFeatures/tree/hunter-foods)
+- [X] [hunter-foods](https://github.com/unholy-codeism/BPSuggestedFeatures/tree/hunter-foods)

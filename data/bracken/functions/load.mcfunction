@@ -26,6 +26,7 @@ scoreboard objectives add bp.creeper_horn dummy
 scoreboard objectives add bp.var dummy
 scoreboard objectives add bp.gothrum_fang dummy
 scoreboard objectives add bp.brinetravel dummy
+scoreboard objectives add bp.brine_map_acquired dummy
 
 scoreboard objectives add bp.tick dummy
 scoreboard objectives add bp.1_second dummy
